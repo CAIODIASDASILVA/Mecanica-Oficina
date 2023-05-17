@@ -1,10 +1,20 @@
 :root{
-    --cor-de-fundo:"#E5E5E5";
+    --cor-de-fundo:"#A3A49D";
     --vermelho-principal:"#FF0000";
     --preto-segundaria:"#000000";
-    --botao-branco:"#"
+    --botao-branco:"#FFFFFF";
+    --fonte-principal:'Bebas';
+
+
 }
 
 body{
-    
+    background-color: #A3A49D;
+    font-family: var(--fonte-principal);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.principal-imagem{
+    width: 100%;
 }
