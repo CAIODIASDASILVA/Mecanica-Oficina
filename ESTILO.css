@@ -1,8 +1,8 @@
 :root{
-    --cor-de-fundo:"#A3A49D";
-    --vermelho-principal:"#FF0000";
-    --preto-segundaria:"#000000";
-    --botao-branco:"#FFFFFF";
+    --cor-de-fundo:#A3A49D;
+    --vermelho-principal:#FF0000;
+    --preto-segundaria:#000000;
+    --botao-branco:#FFFFFF;
     --fonte-principal:'Bebas';
 
 
@@ -14,8 +14,23 @@ body{
     font-size: 35px;
     font-weight: 400;
 }
-
 .principal-imagem{
-    width: 100%;
+    width: 100%
+
+
+
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:50% 50%
 }
 
+
+.descricao--titulo{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--vermelho-principal);
+    margin-bottom: 0.1em;
+
+}
