@@ -34,10 +34,12 @@ body{
     margin-bottom: 0.1em;
 
 }
-.descricao--titulo{
-    font-weight: 600;
-    font-size: 48px;
-    
+.carros{
+text-align: center;
 
-
+}
+.carros--lista{
+display:flex;
+justify-content: center;
+list-style-type: none;
 }
